@@ -96,4 +96,4 @@ def delete_customer(id):
     return redirect(url_for('view_customers'))
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host='0.0.0.0')
